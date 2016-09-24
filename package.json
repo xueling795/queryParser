@@ -1,0 +1,40 @@
+{
+  "name": "koa-query-parser",
+  "version": "0.0.1",
+  "description": "A koa query parser middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony"
+  },
+  "author": {
+    "name": "xueling795",
+    "email": "xueling794@yeah.net",
+    "url": "https://github.com/xueling795"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xueling795/queryParser.git"
+  },
+  "keywords": [
+    "koa",
+    "query",
+    "parser",
+    "request",
+    "params"
+  ],
+  "dependencies": {
+    "qs": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "2.0.0"
+  },
+  "contributors": [
+    {
+      "name": "xueling795",
+      "email": "xueling794@yeah.net",
+      "url": "https://github.com/xueling795"
+    }
+  ],
+  "license": "MIT"
+}
